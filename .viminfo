@@ -10,13 +10,22 @@
 
 # hlsearch on (H) or off (h):
 ~h
+# Last Substitute String:
+$
+
 # Command Line History (newest to oldest):
 :wq
-|2,0,1693351451,,"wq"
+|2,0,1693944532,,"wq"
+:q!
+|2,0,1693526062,,"q!"
+:q@
+|2,0,1693526056,,"q@"
 :q
 |2,0,1693350721,,"q"
 
 # Search String History (newest to oldest):
+? @$
+|2,1,1693526029,,"@$"
 
 # Expression History (newest to oldest):
 
@@ -25,36 +34,181 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
+"-	BLOCK	5
+	./    
+|3,0,36,2,1,5,1693525736,"./    "
 
 # File marks:
-'0  1  0  ~/0x02_vi/end_of_the_line
-|4,48,1,0,1693351451,"~/0x02_vi/end_of_the_line"
-'1  1  0  ~/0x02_vi/beginning_of_the_line
-|4,49,1,0,1693351380,"~/0x02_vi/beginning_of_the_line"
-'2  1  2  ~/0x02_vi/exiting
-|4,50,1,2,1693351275,"~/0x02_vi/exiting"
-'3  1  0  ~/0x02_vi/undoing
-|4,51,1,0,1693351161,"~/0x02_vi/undoing"
-'4  1  0  ~/0x02_vi/pasting
-|4,52,1,0,1693351082,"~/0x02_vi/pasting"
-'5  1  1  ~/0x02_vi/cutting
-|4,53,1,1,1693351042,"~/0x02_vi/cutting"
-'6  1  0  ~/0x02_vi/inserting
-|4,54,1,0,1693350919,"~/0x02_vi/inserting"
-'7  1  0  ~/0x02_emacs/inserting
-|4,55,1,0,1693350777,"~/0x02_emacs/inserting"
-'8  1  0  ~/inserting
-|4,56,1,0,1693350721,"~/inserting"
-'9  1  0  ~/inserting
-|4,57,1,0,1693350643,"~/inserting"
+'0  83  0  /etc/ssh/sshd_config
+|4,48,83,0,1693944532,"/etc/ssh/sshd_config"
+'1  7  2  ~/alx-system_engineering-devops/0x01-shell_permissions
+|4,49,7,2,1693526062,"~/alx-system_engineering-devops/0x01-shell_permissions"
+'2  8  0  ~/alx-system_engineering-devops/0x01-shell_permissions
+|4,50,8,0,1693525746,"~/alx-system_engineering-devops/0x01-shell_permissions"
+'3  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
+|4,51,3,0,1693439711,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
+'4  1  0  ~/0x02_vi/end_of_the_line
+|4,52,1,0,1693351451,"~/0x02_vi/end_of_the_line"
+'5  1  0  ~/0x02_vi/beginning_of_the_line
+|4,53,1,0,1693351380,"~/0x02_vi/beginning_of_the_line"
+'6  1  2  ~/0x02_vi/exiting
+|4,54,1,2,1693351275,"~/0x02_vi/exiting"
+'7  1  0  ~/0x02_vi/undoing
+|4,55,1,0,1693351161,"~/0x02_vi/undoing"
+'8  1  0  ~/0x02_vi/pasting
+|4,56,1,0,1693351082,"~/0x02_vi/pasting"
+'9  1  1  ~/0x02_vi/cutting
+|4,57,1,1,1693351042,"~/0x02_vi/cutting"
 
 # Jumplist (newest first):
+-'  83  0  /etc/ssh/sshd_config
+|4,39,83,0,1693944532,"/etc/ssh/sshd_config"
+-'  1  0  /etc/ssh/sshd_config
+|4,39,1,0,1693944449,"/etc/ssh/sshd_config"
+-'  7  2  ~/alx-system_engineering-devops/0x01-shell_permissions
+|4,39,7,2,1693526062,"~/alx-system_engineering-devops/0x01-shell_permissions"
+-'  7  2  ~/alx-system_engineering-devops/0x01-shell_permissions
+|4,39,7,2,1693526062,"~/alx-system_engineering-devops/0x01-shell_permissions"
+-'  1  0  ~/alx-system_engineering-devops/0x01-shell_permissions
+|4,39,1,0,1693526029,"~/alx-system_engineering-devops/0x01-shell_permissions"
+-'  1  0  ~/alx-system_engineering-devops/0x01-shell_permissions
+|4,39,1,0,1693526029,"~/alx-system_engineering-devops/0x01-shell_permissions"
+-'  8  0  ~/alx-system_engineering-devops/0x01-shell_permissions
+|4,39,8,0,1693525746,"~/alx-system_engineering-devops/0x01-shell_permissions"
+-'  8  0  ~/alx-system_engineering-devops/0x01-shell_permissions
+|4,39,8,0,1693525746,"~/alx-system_engineering-devops/0x01-shell_permissions"
+-'  1  0  ~/alx-system_engineering-devops/0x01-shell_permissions
+|4,39,1,0,1693525736,"~/alx-system_engineering-devops/0x01-shell_permissions"
+-'  1  0  ~/alx-system_engineering-devops/0x01-shell_permissions
+|4,39,1,0,1693525736,"~/alx-system_engineering-devops/0x01-shell_permissions"
+-'  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
+|4,39,3,0,1693439711,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
+-'  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
+|4,39,3,0,1693439711,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
+-'  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
+|4,39,3,0,1693439711,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
+-'  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
+|4,39,3,0,1693439711,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
+-'  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
+|4,39,3,0,1693439711,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
+-'  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
+|4,39,3,0,1693439711,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
+-'  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
+|4,39,3,0,1693439711,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
+-'  3  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
+|4,39,3,0,1693439711,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
+-'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
+|4,39,1,0,1693439638,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
+-'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
+|4,39,1,0,1693439638,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
+-'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
+|4,39,1,0,1693439638,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
+-'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
+|4,39,1,0,1693439638,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
+-'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
+|4,39,1,0,1693439638,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
+-'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
+|4,39,1,0,1693439638,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
+-'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
+|4,39,1,0,1693439638,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
+-'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
+|4,39,1,0,1693439638,"~/alx-system_engineering-devops/0x00-shell_basics/1-listit"
+-'  1  0  ~/0x02_vi/end_of_the_line
+|4,39,1,0,1693351451,"~/0x02_vi/end_of_the_line"
+-'  1  0  ~/0x02_vi/end_of_the_line
+|4,39,1,0,1693351451,"~/0x02_vi/end_of_the_line"
+-'  1  0  ~/0x02_vi/end_of_the_line
+|4,39,1,0,1693351451,"~/0x02_vi/end_of_the_line"
+-'  1  0  ~/0x02_vi/end_of_the_line
+|4,39,1,0,1693351451,"~/0x02_vi/end_of_the_line"
+-'  1  0  ~/0x02_vi/end_of_the_line
+|4,39,1,0,1693351451,"~/0x02_vi/end_of_the_line"
+-'  1  0  ~/0x02_vi/end_of_the_line
+|4,39,1,0,1693351451,"~/0x02_vi/end_of_the_line"
+-'  1  0  ~/0x02_vi/end_of_the_line
+|4,39,1,0,1693351451,"~/0x02_vi/end_of_the_line"
+-'  1  0  ~/0x02_vi/end_of_the_line
+|4,39,1,0,1693351451,"~/0x02_vi/end_of_the_line"
+-'  1  0  ~/0x02_vi/end_of_the_line
+|4,39,1,0,1693351451,"~/0x02_vi/end_of_the_line"
+-'  1  0  ~/0x02_vi/end_of_the_line
+|4,39,1,0,1693351451,"~/0x02_vi/end_of_the_line"
+-'  1  0  ~/0x02_vi/end_of_the_line
+|4,39,1,0,1693351451,"~/0x02_vi/end_of_the_line"
+-'  1  0  ~/0x02_vi/end_of_the_line
+|4,39,1,0,1693351451,"~/0x02_vi/end_of_the_line"
+-'  1  0  ~/0x02_vi/end_of_the_line
+|4,39,1,0,1693351451,"~/0x02_vi/end_of_the_line"
+-'  1  0  ~/0x02_vi/end_of_the_line
+|4,39,1,0,1693351451,"~/0x02_vi/end_of_the_line"
+-'  1  0  ~/0x02_vi/end_of_the_line
+|4,39,1,0,1693351451,"~/0x02_vi/end_of_the_line"
 -'  1  0  ~/0x02_vi/end_of_the_line
 |4,39,1,0,1693351451,"~/0x02_vi/end_of_the_line"
 -'  1  0  ~/0x02_vi/beginning_of_the_line
 |4,39,1,0,1693351380,"~/0x02_vi/beginning_of_the_line"
 -'  1  0  ~/0x02_vi/beginning_of_the_line
 |4,39,1,0,1693351380,"~/0x02_vi/beginning_of_the_line"
+-'  1  0  ~/0x02_vi/beginning_of_the_line
+|4,39,1,0,1693351380,"~/0x02_vi/beginning_of_the_line"
+-'  1  0  ~/0x02_vi/beginning_of_the_line
+|4,39,1,0,1693351380,"~/0x02_vi/beginning_of_the_line"
+-'  1  0  ~/0x02_vi/beginning_of_the_line
+|4,39,1,0,1693351380,"~/0x02_vi/beginning_of_the_line"
+-'  1  0  ~/0x02_vi/beginning_of_the_line
+|4,39,1,0,1693351380,"~/0x02_vi/beginning_of_the_line"
+-'  1  0  ~/0x02_vi/beginning_of_the_line
+|4,39,1,0,1693351380,"~/0x02_vi/beginning_of_the_line"
+-'  1  0  ~/0x02_vi/beginning_of_the_line
+|4,39,1,0,1693351380,"~/0x02_vi/beginning_of_the_line"
+-'  1  0  ~/0x02_vi/beginning_of_the_line
+|4,39,1,0,1693351380,"~/0x02_vi/beginning_of_the_line"
+-'  1  0  ~/0x02_vi/beginning_of_the_line
+|4,39,1,0,1693351380,"~/0x02_vi/beginning_of_the_line"
+-'  1  0  ~/0x02_vi/beginning_of_the_line
+|4,39,1,0,1693351380,"~/0x02_vi/beginning_of_the_line"
+-'  1  0  ~/0x02_vi/beginning_of_the_line
+|4,39,1,0,1693351380,"~/0x02_vi/beginning_of_the_line"
+-'  1  0  ~/0x02_vi/beginning_of_the_line
+|4,39,1,0,1693351380,"~/0x02_vi/beginning_of_the_line"
+-'  1  0  ~/0x02_vi/beginning_of_the_line
+|4,39,1,0,1693351380,"~/0x02_vi/beginning_of_the_line"
+-'  1  0  ~/0x02_vi/beginning_of_the_line
+|4,39,1,0,1693351380,"~/0x02_vi/beginning_of_the_line"
+-'  1  0  ~/0x02_vi/beginning_of_the_line
+|4,39,1,0,1693351380,"~/0x02_vi/beginning_of_the_line"
+-'  1  0  ~/0x02_vi/beginning_of_the_line
+|4,39,1,0,1693351380,"~/0x02_vi/beginning_of_the_line"
+-'  1  0  ~/0x02_vi/beginning_of_the_line
+|4,39,1,0,1693351380,"~/0x02_vi/beginning_of_the_line"
+-'  1  0  ~/0x02_vi/beginning_of_the_line
+|4,39,1,0,1693351380,"~/0x02_vi/beginning_of_the_line"
+-'  1  0  ~/0x02_vi/beginning_of_the_line
+|4,39,1,0,1693351380,"~/0x02_vi/beginning_of_the_line"
+-'  1  0  ~/0x02_vi/beginning_of_the_line
+|4,39,1,0,1693351380,"~/0x02_vi/beginning_of_the_line"
+-'  1  0  ~/0x02_vi/beginning_of_the_line
+|4,39,1,0,1693351380,"~/0x02_vi/beginning_of_the_line"
+-'  1  0  ~/0x02_vi/beginning_of_the_line
+|4,39,1,0,1693351380,"~/0x02_vi/beginning_of_the_line"
+-'  1  0  ~/0x02_vi/beginning_of_the_line
+|4,39,1,0,1693351380,"~/0x02_vi/beginning_of_the_line"
+-'  1  0  ~/0x02_vi/beginning_of_the_line
+|4,39,1,0,1693351380,"~/0x02_vi/beginning_of_the_line"
+-'  1  0  ~/0x02_vi/beginning_of_the_line
+|4,39,1,0,1693351380,"~/0x02_vi/beginning_of_the_line"
+-'  1  0  ~/0x02_vi/beginning_of_the_line
+|4,39,1,0,1693351380,"~/0x02_vi/beginning_of_the_line"
+-'  1  0  ~/0x02_vi/beginning_of_the_line
+|4,39,1,0,1693351380,"~/0x02_vi/beginning_of_the_line"
+-'  1  0  ~/0x02_vi/beginning_of_the_line
+|4,39,1,0,1693351380,"~/0x02_vi/beginning_of_the_line"
+-'  1  0  ~/0x02_vi/beginning_of_the_line
+|4,39,1,0,1693351380,"~/0x02_vi/beginning_of_the_line"
+-'  1  0  ~/0x02_vi/beginning_of_the_line
+|4,39,1,0,1693351380,"~/0x02_vi/beginning_of_the_line"
+-'  1  0  ~/0x02_vi/beginning_of_the_line
+|4,39,1,0,1693351380,"~/0x02_vi/beginning_of_the_line"
 -'  1  2  ~/0x02_vi/exiting
 |4,39,1,2,1693351275,"~/0x02_vi/exiting"
 -'  1  2  ~/0x02_vi/exiting
@@ -63,194 +217,63 @@
 |4,39,1,2,1693351275,"~/0x02_vi/exiting"
 -'  1  2  ~/0x02_vi/exiting
 |4,39,1,2,1693351275,"~/0x02_vi/exiting"
--'  1  0  ~/0x02_vi/undoing
-|4,39,1,0,1693351161,"~/0x02_vi/undoing"
--'  1  0  ~/0x02_vi/undoing
-|4,39,1,0,1693351161,"~/0x02_vi/undoing"
--'  1  0  ~/0x02_vi/undoing
-|4,39,1,0,1693351161,"~/0x02_vi/undoing"
--'  1  0  ~/0x02_vi/undoing
-|4,39,1,0,1693351161,"~/0x02_vi/undoing"
--'  1  0  ~/0x02_vi/undoing
-|4,39,1,0,1693351161,"~/0x02_vi/undoing"
--'  1  0  ~/0x02_vi/undoing
-|4,39,1,0,1693351161,"~/0x02_vi/undoing"
--'  1  0  ~/0x02_vi/undoing
-|4,39,1,0,1693351161,"~/0x02_vi/undoing"
--'  1  0  ~/0x02_vi/undoing
-|4,39,1,0,1693351161,"~/0x02_vi/undoing"
--'  1  0  ~/0x02_vi/pasting
-|4,39,1,0,1693351082,"~/0x02_vi/pasting"
--'  1  0  ~/0x02_vi/pasting
-|4,39,1,0,1693351082,"~/0x02_vi/pasting"
--'  1  0  ~/0x02_vi/pasting
-|4,39,1,0,1693351082,"~/0x02_vi/pasting"
--'  1  0  ~/0x02_vi/pasting
-|4,39,1,0,1693351082,"~/0x02_vi/pasting"
--'  1  0  ~/0x02_vi/pasting
-|4,39,1,0,1693351082,"~/0x02_vi/pasting"
--'  1  0  ~/0x02_vi/pasting
-|4,39,1,0,1693351082,"~/0x02_vi/pasting"
--'  1  0  ~/0x02_vi/pasting
-|4,39,1,0,1693351082,"~/0x02_vi/pasting"
--'  1  0  ~/0x02_vi/pasting
-|4,39,1,0,1693351082,"~/0x02_vi/pasting"
--'  1  0  ~/0x02_vi/pasting
-|4,39,1,0,1693351082,"~/0x02_vi/pasting"
--'  1  0  ~/0x02_vi/pasting
-|4,39,1,0,1693351082,"~/0x02_vi/pasting"
--'  1  0  ~/0x02_vi/pasting
-|4,39,1,0,1693351082,"~/0x02_vi/pasting"
--'  1  0  ~/0x02_vi/pasting
-|4,39,1,0,1693351082,"~/0x02_vi/pasting"
--'  1  0  ~/0x02_vi/pasting
-|4,39,1,0,1693351082,"~/0x02_vi/pasting"
--'  1  0  ~/0x02_vi/pasting
-|4,39,1,0,1693351082,"~/0x02_vi/pasting"
--'  1  0  ~/0x02_vi/pasting
-|4,39,1,0,1693351082,"~/0x02_vi/pasting"
--'  1  0  ~/0x02_vi/pasting
-|4,39,1,0,1693351082,"~/0x02_vi/pasting"
--'  1  1  ~/0x02_vi/cutting
-|4,39,1,1,1693351042,"~/0x02_vi/cutting"
--'  1  1  ~/0x02_vi/cutting
-|4,39,1,1,1693351042,"~/0x02_vi/cutting"
--'  1  1  ~/0x02_vi/cutting
-|4,39,1,1,1693351042,"~/0x02_vi/cutting"
--'  1  1  ~/0x02_vi/cutting
-|4,39,1,1,1693351042,"~/0x02_vi/cutting"
--'  1  1  ~/0x02_vi/cutting
-|4,39,1,1,1693351042,"~/0x02_vi/cutting"
--'  1  1  ~/0x02_vi/cutting
-|4,39,1,1,1693351042,"~/0x02_vi/cutting"
--'  1  1  ~/0x02_vi/cutting
-|4,39,1,1,1693351042,"~/0x02_vi/cutting"
--'  1  1  ~/0x02_vi/cutting
-|4,39,1,1,1693351042,"~/0x02_vi/cutting"
--'  1  1  ~/0x02_vi/cutting
-|4,39,1,1,1693351042,"~/0x02_vi/cutting"
--'  1  1  ~/0x02_vi/cutting
-|4,39,1,1,1693351042,"~/0x02_vi/cutting"
--'  1  1  ~/0x02_vi/cutting
-|4,39,1,1,1693351042,"~/0x02_vi/cutting"
--'  1  1  ~/0x02_vi/cutting
-|4,39,1,1,1693351042,"~/0x02_vi/cutting"
--'  1  1  ~/0x02_vi/cutting
-|4,39,1,1,1693351042,"~/0x02_vi/cutting"
--'  1  1  ~/0x02_vi/cutting
-|4,39,1,1,1693351042,"~/0x02_vi/cutting"
--'  1  1  ~/0x02_vi/cutting
-|4,39,1,1,1693351042,"~/0x02_vi/cutting"
--'  1  1  ~/0x02_vi/cutting
-|4,39,1,1,1693351042,"~/0x02_vi/cutting"
--'  1  1  ~/0x02_vi/cutting
-|4,39,1,1,1693351042,"~/0x02_vi/cutting"
--'  1  1  ~/0x02_vi/cutting
-|4,39,1,1,1693351042,"~/0x02_vi/cutting"
--'  1  1  ~/0x02_vi/cutting
-|4,39,1,1,1693351042,"~/0x02_vi/cutting"
--'  1  1  ~/0x02_vi/cutting
-|4,39,1,1,1693351042,"~/0x02_vi/cutting"
--'  1  1  ~/0x02_vi/cutting
-|4,39,1,1,1693351042,"~/0x02_vi/cutting"
--'  1  1  ~/0x02_vi/cutting
-|4,39,1,1,1693351042,"~/0x02_vi/cutting"
--'  1  1  ~/0x02_vi/cutting
-|4,39,1,1,1693351042,"~/0x02_vi/cutting"
--'  1  1  ~/0x02_vi/cutting
-|4,39,1,1,1693351042,"~/0x02_vi/cutting"
--'  1  1  ~/0x02_vi/cutting
-|4,39,1,1,1693351042,"~/0x02_vi/cutting"
--'  1  1  ~/0x02_vi/cutting
-|4,39,1,1,1693351042,"~/0x02_vi/cutting"
--'  1  1  ~/0x02_vi/cutting
-|4,39,1,1,1693351042,"~/0x02_vi/cutting"
--'  1  1  ~/0x02_vi/cutting
-|4,39,1,1,1693351042,"~/0x02_vi/cutting"
--'  1  1  ~/0x02_vi/cutting
-|4,39,1,1,1693351042,"~/0x02_vi/cutting"
--'  1  1  ~/0x02_vi/cutting
-|4,39,1,1,1693351042,"~/0x02_vi/cutting"
--'  1  1  ~/0x02_vi/cutting
-|4,39,1,1,1693351042,"~/0x02_vi/cutting"
--'  1  1  ~/0x02_vi/cutting
-|4,39,1,1,1693351042,"~/0x02_vi/cutting"
--'  1  0  ~/0x02_vi/inserting
-|4,39,1,0,1693350919,"~/0x02_vi/inserting"
--'  1  0  ~/0x02_vi/inserting
-|4,39,1,0,1693350919,"~/0x02_vi/inserting"
--'  1  0  ~/0x02_vi/inserting
-|4,39,1,0,1693350919,"~/0x02_vi/inserting"
--'  1  0  ~/0x02_vi/inserting
-|4,39,1,0,1693350919,"~/0x02_vi/inserting"
--'  1  0  ~/0x02_vi/inserting
-|4,39,1,0,1693350919,"~/0x02_vi/inserting"
--'  1  0  ~/0x02_vi/inserting
-|4,39,1,0,1693350919,"~/0x02_vi/inserting"
--'  1  0  ~/0x02_vi/inserting
-|4,39,1,0,1693350919,"~/0x02_vi/inserting"
--'  1  0  ~/0x02_vi/inserting
-|4,39,1,0,1693350919,"~/0x02_vi/inserting"
--'  1  0  ~/0x02_vi/inserting
-|4,39,1,0,1693350919,"~/0x02_vi/inserting"
--'  1  0  ~/0x02_vi/inserting
-|4,39,1,0,1693350919,"~/0x02_vi/inserting"
--'  1  0  ~/0x02_vi/inserting
-|4,39,1,0,1693350919,"~/0x02_vi/inserting"
--'  1  0  ~/0x02_vi/inserting
-|4,39,1,0,1693350919,"~/0x02_vi/inserting"
--'  1  0  ~/0x02_vi/inserting
-|4,39,1,0,1693350919,"~/0x02_vi/inserting"
--'  1  0  ~/0x02_vi/inserting
-|4,39,1,0,1693350919,"~/0x02_vi/inserting"
--'  1  0  ~/0x02_vi/inserting
-|4,39,1,0,1693350919,"~/0x02_vi/inserting"
--'  1  0  ~/0x02_vi/inserting
-|4,39,1,0,1693350919,"~/0x02_vi/inserting"
--'  1  0  ~/0x02_vi/inserting
-|4,39,1,0,1693350919,"~/0x02_vi/inserting"
--'  1  0  ~/0x02_vi/inserting
-|4,39,1,0,1693350919,"~/0x02_vi/inserting"
--'  1  0  ~/0x02_vi/inserting
-|4,39,1,0,1693350919,"~/0x02_vi/inserting"
--'  1  0  ~/0x02_vi/inserting
-|4,39,1,0,1693350919,"~/0x02_vi/inserting"
--'  1  0  ~/0x02_vi/inserting
-|4,39,1,0,1693350919,"~/0x02_vi/inserting"
--'  1  0  ~/0x02_vi/inserting
-|4,39,1,0,1693350919,"~/0x02_vi/inserting"
--'  1  0  ~/0x02_vi/inserting
-|4,39,1,0,1693350919,"~/0x02_vi/inserting"
--'  1  0  ~/0x02_vi/inserting
-|4,39,1,0,1693350919,"~/0x02_vi/inserting"
--'  1  0  ~/0x02_vi/inserting
-|4,39,1,0,1693350919,"~/0x02_vi/inserting"
--'  1  0  ~/0x02_vi/inserting
-|4,39,1,0,1693350919,"~/0x02_vi/inserting"
--'  1  0  ~/0x02_vi/inserting
-|4,39,1,0,1693350919,"~/0x02_vi/inserting"
--'  1  0  ~/0x02_vi/inserting
-|4,39,1,0,1693350919,"~/0x02_vi/inserting"
--'  1  0  ~/0x02_vi/inserting
-|4,39,1,0,1693350919,"~/0x02_vi/inserting"
--'  1  0  ~/0x02_vi/inserting
-|4,39,1,0,1693350919,"~/0x02_vi/inserting"
--'  1  0  ~/0x02_vi/inserting
-|4,39,1,0,1693350919,"~/0x02_vi/inserting"
--'  1  0  ~/0x02_vi/inserting
-|4,39,1,0,1693350919,"~/0x02_vi/inserting"
--'  1  0  ~/0x02_vi/inserting
-|4,39,1,0,1693350919,"~/0x02_vi/inserting"
--'  1  0  ~/0x02_vi/inserting
-|4,39,1,0,1693350919,"~/0x02_vi/inserting"
--'  1  0  ~/0x02_vi/inserting
-|4,39,1,0,1693350919,"~/0x02_vi/inserting"
--'  1  0  ~/0x02_vi/inserting
-|4,39,1,0,1693350919,"~/0x02_vi/inserting"
--'  1  0  ~/0x02_vi/inserting
-|4,39,1,0,1693350919,"~/0x02_vi/inserting"
+-'  1  2  ~/0x02_vi/exiting
+|4,39,1,2,1693351275,"~/0x02_vi/exiting"
+-'  1  2  ~/0x02_vi/exiting
+|4,39,1,2,1693351275,"~/0x02_vi/exiting"
+-'  1  2  ~/0x02_vi/exiting
+|4,39,1,2,1693351275,"~/0x02_vi/exiting"
+-'  1  2  ~/0x02_vi/exiting
+|4,39,1,2,1693351275,"~/0x02_vi/exiting"
+-'  1  2  ~/0x02_vi/exiting
+|4,39,1,2,1693351275,"~/0x02_vi/exiting"
+-'  1  2  ~/0x02_vi/exiting
+|4,39,1,2,1693351275,"~/0x02_vi/exiting"
+-'  1  2  ~/0x02_vi/exiting
+|4,39,1,2,1693351275,"~/0x02_vi/exiting"
+-'  1  2  ~/0x02_vi/exiting
+|4,39,1,2,1693351275,"~/0x02_vi/exiting"
+-'  1  2  ~/0x02_vi/exiting
+|4,39,1,2,1693351275,"~/0x02_vi/exiting"
+-'  1  2  ~/0x02_vi/exiting
+|4,39,1,2,1693351275,"~/0x02_vi/exiting"
+-'  1  2  ~/0x02_vi/exiting
+|4,39,1,2,1693351275,"~/0x02_vi/exiting"
+-'  1  2  ~/0x02_vi/exiting
+|4,39,1,2,1693351275,"~/0x02_vi/exiting"
+-'  1  2  ~/0x02_vi/exiting
+|4,39,1,2,1693351275,"~/0x02_vi/exiting"
+-'  1  2  ~/0x02_vi/exiting
+|4,39,1,2,1693351275,"~/0x02_vi/exiting"
+-'  1  2  ~/0x02_vi/exiting
+|4,39,1,2,1693351275,"~/0x02_vi/exiting"
+-'  1  2  ~/0x02_vi/exiting
+|4,39,1,2,1693351275,"~/0x02_vi/exiting"
+-'  1  2  ~/0x02_vi/exiting
+|4,39,1,2,1693351275,"~/0x02_vi/exiting"
+-'  1  2  ~/0x02_vi/exiting
+|4,39,1,2,1693351275,"~/0x02_vi/exiting"
+-'  1  2  ~/0x02_vi/exiting
+|4,39,1,2,1693351275,"~/0x02_vi/exiting"
+-'  1  2  ~/0x02_vi/exiting
+|4,39,1,2,1693351275,"~/0x02_vi/exiting"
+-'  1  2  ~/0x02_vi/exiting
+|4,39,1,2,1693351275,"~/0x02_vi/exiting"
+-'  1  2  ~/0x02_vi/exiting
+|4,39,1,2,1693351275,"~/0x02_vi/exiting"
 
 # History of marks within files (newest to oldest):
+
+> /etc/ssh/sshd_config
+	*	1693944528	0
+	"	83	0
+
+> ~/alx-system_engineering-devops/0x00-shell_basics/1-listit
+	*	1693439703	0
+	"	3	0
+	^	3	0
+	.	2	5
+	+	2	5
 
 > ~/0x02_vi/end_of_the_line
 	*	1693351444	0
